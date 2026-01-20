@@ -1,0 +1,20 @@
+CREATE TABLE `gateway_route` (
+  `id` varchar(50) NOT NULL,
+  `method` varchar(10) NOT NULL,
+  `inbound_path` varchar(100) NOT NULL,
+  `outbound_path` varchar(100) DEFAULT NULL,
+  `server_name` varchar(100) NOT NULL,
+  `order` int NOT NULL DEFAULT '1',
+  `predicates` varchar(500) DEFAULT NULL,
+  `filters` varchar(500) DEFAULT NULL,
+  `status` int NOT NULL DEFAULT '0',
+  `is_logging` int NOT NULL DEFAULT '1',
+  `metadata` varchar(500) DEFAULT NULL,
+  `remark` varchar(500) DEFAULT NULL,
+  `create_time` datetime DEFAULT NULL,
+  `create_by` varchar(50) DEFAULT NULL,
+  `last_update_time` datetime DEFAULT NULL,
+  `last_update_yb` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `gateway_route_method_IDX` (`method`,`inbound_path`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

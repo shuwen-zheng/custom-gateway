@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf00f4ef-6d01-4d13-8ded-a1d7dc5b06d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/GatewayApplicationStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/config/BodyLoggingSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/config/CustomLoadBalancerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/config/GatewayHttpClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/config/ManualNacosDiscoveryConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/config/VersionBasedLoadBalancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/constant/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/dao/GatewayRouteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/dao/GatewayServerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/dao/entity/UadpGatewayRouteEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/dao/entity/UadpGatewayServerEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/filter/CustomModifyRequestBodyGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/filter/CustomModifyResponseBodyGatewayFilterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/filter/CustomNettyRoutingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/filter/InitRequestIdWebFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/filter/VersionConfigFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/route/DatabaseRouteDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/util/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/shuwen/gateway/vo/ProxyInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ddl/gateway_route.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/ddl/gateway_server.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/Code/custom-gateway" value="38Vum1p8xvpfILsEuoIZn2XOf7E" />
+    </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="38Vum1p8xvpfILsEuoIZn2XOf7E" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.cncbi-gateway [compile].executor": "Run",
+    "Maven.custom-gateway [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf00f4ef-6d01-4d13-8ded-a1d7dc5b06d1" name="Changes" comment="" />
+      <created>1768897214829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768897214829</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
