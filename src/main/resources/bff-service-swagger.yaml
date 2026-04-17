@@ -1,0 +1,107 @@
+swagger: '2.0'
+info:
+  title: BFF Service API
+  version: v0
+  description: OpenAPI definition converted from OpenAPI 3.0.1 to Swagger 2.0
+host: localhost:14001
+basePath: /
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+tags:
+  - name: hkLife
+    description: hkLife
+  - name: Rsa signature
+    description: Rsa signature
+  - name: vc
+    description: vc
+  - name: tla
+    description: tla
+  - name: RecentPayeeApi
+    description: Recent Payees
+  - name: session
+    description: session
+  - name: softToken
+    description: soft Token
+  - name: smsotp
+    description: smsotp
+  - name: INB service
+    description: INB service
+  - name: Zoloz service
+    description: Zoloz service
+  - name: payment-registration
+    description: ibps payment registration service
+  - name: login
+    description: login
+  - name: AccountApi
+    description: Account API
+  - name: NonRepeatableApi
+    description: NonRepeatableApi
+paths:
+  /bff/v1/zoloz/initialize:
+    post:
+      tags:
+        - Zoloz service
+      summary: Zoloz initialize
+      operationId: initialize
+      parameters: []
+      consumes:
+        - application/json
+      responses:
+        '200':
+          description: OK
+          schema:
+            $ref: '#/definitions/BffZolozInitializeResponse'
+      security:
+        - OAuth2:
+            - INB
+        - OAuth2:
+            - RTK
+  /error:
+    get:
+      tags:
+        - service-error-controller
+      operationId: error
+      responses:
+        '200':\n          description: OK
+          schema:
+            type: object
+definitions:
+  BffZolozInitializeRequest:
+    type: object
+    required:
+      - metaInfo
+      - sceneCode
+    properties:
+      sceneCode:
+        type: string
+        enum:
+          - REGISTER
+          - RESETPWD
+          - SOFTTOKEN
+      metaInfo:
+        type: string
+      identityType:
+        type: string
+        enum:
+          - HKID_2018_VERSION
+    description: Zoloz initialize request body
+  BffZolozInitializeResponse:
+    type: object
+    properties:
+      transactionId:
+        type: string
+      clientConfig:
+        type: string
+    description: Zoloz initialize response body
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: implicit
+    authorizationUrl: https://example.com/oauth/authorize
+    scopes:
+      INB: INB scope
+      RTK: RTK scope
